@@ -1,4 +1,4 @@
-# Red-Black Tree Visualization
+# 🔴⚫Red-Black Tree Visualization 🔴⚫
 This repository contains Python code for implementing a Red-Black Tree data structure and visualizing it using networkx and matplotlib.
 
 # Overview

@@ -12,7 +12,36 @@ Represents individual nodes in the Red-Black Tree with properties such as key, v
 
 # Visualization
 Provides a graphical representation of the Red-Black Tree using networkx and matplotlib. Nodes are visualized with colors (red or black) indicating their respective properties in the tree.
+```bash
+Elemanlar eklendikten sonra ağaç:
+R----  20(BLACK)
+     L----   10(RED)
+     |    L----   5(BLACK)   
+     |    |    L----   1(RED)
+     |    R----  15(BLACK)   
+     R----  30(RED)
+          L----   25(BLACK)  
+          R----  35(BLACK)   
+               R----  50(RED)
 
-![Figure_1](https://github.com/user-attachments/assets/49a085cf-07c3-4e28-84ba-4e7f33da7234)![Figure_2](https://github.com/user-attachments/assets/2970298d-31c7-4458-8451-b9ba58ac1fb9) ![Figure_3](https://github.com/user-attachments/assets/8a9d437d-fe20-4d6a-a65a-40214b551533)
-![1](https://github.com/user-attachments/assets/c240371e-2436-47ce-96ee-89ca8ad6dbf6)
+10 silindikten sonra ağaç:
+R----  20(BLACK)
+     L----   5(RED)
+     |    L----   1(BLACK)   
+     |    R----  15(BLACK)   
+     R----  30(RED)
+          L----   25(BLACK)  
+          R----  35(BLACK)   
+               R----  50(RED)
 
+20 silindikten sonra ağaç:
+R----  25(BLACK)
+     L----   5(RED)        
+     |    L----   1(BLACK) 
+     |    R----  15(BLACK) 
+     R----  35(RED)        
+          L----   30(BLACK)
+          R----  50(BLACK)
+```
+
+<img src="https://github.com/user-attachments/assets/49a085cf-07c3-4e28-84ba-4e7f33da7234" width="250"> <img src="https://github.com/user-attachments/assets/2970298d-31c7-4458-8451-b9ba58ac1fb9" width="250"> <img src="https://github.com/user-attachments/assets/8a9d437d-fe20-4d6a-a65a-40214b551533" width="250">
